@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -11,82 +17,40 @@
             colors: {
               kmitl: "#f97316",
               // kmitl: "#E35205",
+              headerText: "#fdaa48",
             },
           },
           fontFamily: {
-            sans: ["system-ui"],
+            sans: ["Fira Code"],
           },
         },
-      }
+      };
     </script>
   </head>
   <body class="font-sans bg-blue-200">
-    <div class="h-[11.693in] w-[8.268in] bg-white p-12">
-      <div class="w-full h-[1.1in] bg-kmitl relative">
-        <div class="bottom-4 left-4 absolute">
-          <h1 class="text-4xl font-bold -indent-0.5">Ronnachai Srisangwarn</h1>
-          <h3 class="">Fullstack web developer</h3>
-        </div>
-      </div>
+    <div class="h-[11.693in] w-[8.268in] bg-white p-12 text-sm">
+      <!-- <div class="bottom-4 left-4 absolute"></div>
+      <div class="w-full h-[1.1in] bg-kmitl relative"></div> -->
+      <h1 class="text-4xl font-bold text-kmitl">Ronnachai Srisangwarn</h1>
+      <h3 class="text-lg">Fullstack developer</h3>
       <div class="grid grid-cols-12 gap-8 mt-4">
-        <div class="col-span-5 space-y-4">
+        <div class="col-span-5 space-y-2">
           <section>
-            <h3 class="text-xl font-bold">PERSONAL INFORMATION</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
+            <h3 class="text-xl font-bold text-kmitl">ABOUT ME</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
             <div>
-              <p>Age: 21 years old</p>
-              <p>Date of Birth: 22/07/2002</p>
-              <p>Nationality: Thai</p>
+              <p>
+                A Full-stack developer proficient in modern web, mobile, backend technologies and
+                cloud platforms. Experienced in building scalable and robust solutions.
+              </p>
             </div>
           </section>
           <section>
-            <h3 class="text-xl font-bold">SKILLS</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
-            <h4 class="font-bold">Frontend</h4>
-            <ul class="ml-4 list-disc list-inside">
-              <li>HTML CSS Javascript Typescript</li>
-              <li>Bootstrap Tailwind</li>
-              <li>Vue React React-Native</li>
-            </ul>
-            <h4 class="font-bold">Backend</h4>
-            <ul class="ml-4 list-disc list-inside">
-              <li>NodeJS Express Prisma</li>
-              <li>Java Springboot</li>
-            </ul>
-            <h4 class="font-bold">Database</h4>
-            <ul class="ml-4 list-disc list-inside">
-              <li>Postgres</li>
-              <li>MySQL</li>
-            </ul>
-          </section>
-          <section>
-            <h3 class="text-xl font-bold">TRAITS</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
-            <ul class="ml-4 list-disc list-inside">
-              <li>Fast learner</li>
-              <li>Adaptable and flexible</li>
-              <li>Skilled problem solver</li>
-              <li>Strong communicator</li>
-            </ul>
-          </section>
-          <section>
-            <h3 class="text-xl font-bold">LANGUAGE</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
-            <h4 class="font-bold">Thai</h4>
-            <p>Native</p>
-            <h4 class="font-bold">English</h4>
-            <p>Advanced (TOEIC 850)</p>
-          </section>
-        </div>
-        <div class="col-span-7 space-y-4">
-          <section>
-            <h3 class="text-xl font-bold">CONTACT</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
-            <div
-              class="grid grid-cols-12 justify-items-start place-items-start gap-4"
-            >
+            <h3 class="text-xl font-bold text-kmitl">CONTACT</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
+            <div class="grid grid-cols-12 justify-items-start place-items-start items-center">
               <svg
-                class="col-span-1"
+                class="col-span-2"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -100,9 +64,9 @@
                   d="M16.996 7.686a2 2 0 0 1 1.749 1.03l2.446 4.406a2 2 0 0 1 .04 1.865l-2.356 4.714s.683 3.511 3.541 6.37c2.859 2.858 6.358 3.53 6.358 3.53l4.713-2.357a2 2 0 0 1 1.866.04l4.42 2.458A2 2 0 0 1 40.8 31.49v5.073c0 2.584-2.4 4.45-4.848 3.624c-5.028-1.697-12.833-4.927-17.78-9.874c-4.946-4.947-8.177-12.751-9.873-17.78c-.826-2.447 1.04-4.847 3.624-4.847z"
                 />
               </svg>
-              <p class="col-span-11">(+66) 821809530</p>
+              <p class="col-span-10">(+66) 821809530</p>
               <svg
-                class="col-span-1"
+                class="col-span-2"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -113,30 +77,25 @@
                   d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"
                 />
               </svg>
-              <p class="col-span-11">kaykaedesu@duck.com</p>
+              <p class="col-span-10">kaykaedesu@duck.com</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
                 viewBox="0 0 24 24"
+                class="col-span-2"
               >
                 <path
                   fill="currentColor"
                   d="M12 12q.825 0 1.413-.587T14 10q0-.825-.587-1.412T12 8q-.825 0-1.412.588T10 10q0 .825.588 1.413T12 12m0 10q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2q3.175 0 5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22"
                 />
               </svg>
-              <div class="col-span-11">
-                <p>
-                  2003 Soi Lat Krabang 50/2, Lat Karbang, Lat Krabang, Bangkok
-                  10520
-                </p>
-                <p>
-                  92/1 Soi 29, Pa Khoi Tai, San Phi Suea, Muang Chaing Mai,
-                  Chiang Mai 50300
-                </p>
+              <div class="col-span-10">
+                <p>Bangkok, Thailand</p>
+                <p>Chiang Mai, Thailand</p>
               </div>
               <svg
-                class="col-span-1"
+                class="col-span-2"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
@@ -147,56 +106,93 @@
                   d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
                 />
               </svg>
-              <p class="col-span-11">https://github.com/KayKaedesu</p>
+              <p class="col-span-10">https://github.com/KayKaedesu</p>
             </div>
           </section>
-
           <section>
-            <h3 class="text-xl font-bold">EDUCATION</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
+            <h3 class="text-xl font-bold text-kmitl">EDUCATION</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
             <div>
-              <h4 class="font-bold">BACHELOR DEGREE &#8226;2021 - Present</h4>
+              <h4 class="font-bold">BACHELOR DEGREE &#8226; 2021 - 2025 (Predicted)</h4>
               <p>King Mongkut's Institute of Technology Ladkrabang</p>
-              <p>Faculty of Information Technology</p>
-              <p>Major in Information Technology</p>
-              <br />
-              <h4 class="font-bold">VOCATIONAL DIPLOMA &#8226;2018 - 2021</h4>
-              <p>Chiang Mai Technical Collage</p>
-              <p>Major in Information Technology</p>
+              <p>Software Engineering - School of Information Technology</p>
+              <div class="mb-2"></div>
+              <h4 class="font-bold">VOCATIONAL DIPLOMA &#8226; 2018 - 2021</h4>
+              <p>Information Technology - Chiang Mai Technical Collage</p>
               <p>GPA: 3.62</p>
             </div>
           </section>
           <section>
-            <h3 class="text-xl font-bold">SELECTED PROJECTS</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
+            <h3 class="text-xl font-bold text-kmitl">LANGUAGE</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
+            <h4 class="font-bold">Thai</h4>
+            <p>Native</p>
+            <h4 class="font-bold">English</h4>
+            <p>Advanced (TOEIC 850)</p>
+          </section>
+        </div>
+        <div class="col-span-7 space-y-2">
+          <section>
+            <h3 class="text-xl font-bold text-kmitl">SKILLS</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
+            <h4 class="font-bold">Frontend</h4>
+            <ul class="ml-4 list-disc list-inside">
+              <li>HTML, CSS, Typescript</li>
+              <li>Bootstrap, Tailwind</li>
+              <li>Vue, React, Next, React-Native, Flutter</li>
+            </ul>
+            <h4 class="font-bold">Backend</h4>
+            <ul class="ml-4 list-disc list-inside">
+              <li>NodeJS, Express, Prisma, Adonis, Drizzle, Socket.io</li>
+              <li>Java, Kotlin, Springboot</li>
+            </ul>
+            <h4 class="font-bold">Database</h4>
+            <ul class="ml-4 list-disc list-inside">
+              <li>Postgres, MySQL</li>
+            </ul>
+            <h4 class="font-bold">Miscellaneous</h4>
+            <ul class="ml-4 list-disc list-inside">
+              <li>AWS, GCP, Docker, Git, Github, Supabase, Firebase, Figma, Jenkins</li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold text-kmitl">EXPERIENCE</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
+            <div class="font-bold flex justify-between">
+              <h4>Protoss Technology</h4>
+              <h4>June 2024 - Oct 2024</h4>
+            </div>
+            <p class="font-bold">Position: Software Engineer Intern</p>
+            <ul class="ml-4 list-disc list-inside">
+              <li>
+                Maintained and developed features for logistics management application on a legacy
+                codebase using Vue, Flutter, Adonis and MySQL.
+              </li>
+              <li>
+                Designed and developed chat architecture for communication between mobile user and
+                web admin with various feature such as sending message, sending photo/file with
+                local notification, message read status with Socket.IO and Firebase.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3 class="text-xl font-bold text-kmitl">SELECTED PROJECTS</h3>
+            <!-- <div class="w-full h-[0.1in] bg-kmitl mb-2"></div> -->
             <div class="font-bold flex justify-between">
               <h4>hor-mahalai-kmitl-project</h4>
               <h4>Feb 2023 - May 2023</h4>
             </div>
             <p>
-              A web application for dorm manager to advertise about their own
-              dorm and for the user/potential renter to look up the dorm
-              information using Vue, Express, Prisma and Postgres.
+              A web application for dorm manager/potential renter using Vue, Express, Prisma and
+              Postgres.
             </p>
+            <div class="mb-2"></div>
             <div class="font-bold flex justify-between">
               <h4>Billionaire-store</h4>
               <h4>Oct 2023 - Nov 2023</h4>
             </div>
-            <p>
-              An ERP project built mostly with Java for buying and refilling
-              stock and selling products with user authentication for both the
-              manager and employee.
-            </p>
+            <p>A semi ERP/CRM project mostly built with Java in microservice architecture.</p>
           </section>
-          <!-- <section>
-            <h3 class="text-xl font-bold">PERSONAL INFORMATION</h3>
-            <div class="w-full h-[0.1in] bg-kmitl mb-2"></div>
-            <div>
-              <p>Age: 24 years old</p>
-              <p>Date of Birth: 22/07/2002</p>
-              <p>Nationality: Thai</p>
-            </div>
-          </section> -->
         </div>
       </div>
     </div>

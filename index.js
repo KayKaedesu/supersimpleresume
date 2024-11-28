@@ -13,7 +13,7 @@ import puppeteer from "puppeteer"
   // await page.setViewport({width: 1080, height: 1024});
   await new Promise((resolve) => setTimeout(resolve, 200))
   // await const a = setTimeout(() => {}, 1000);
-  await page.pdf({ path: "resume.pdf", format: "A4", printBackground: true })
+  await page.pdf({ path: "Ronnachai Srisangwarn - Resume.pdf", format: "A4", printBackground: true })
 
   // // Type into search box
   // await page.type('.search-box__input', 'automate beyond recorder');
